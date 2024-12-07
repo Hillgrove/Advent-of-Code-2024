@@ -21,10 +21,30 @@ using (StreamReader reader = new StreamReader(filename))
 column1.Sort();
 column2.Sort();
 
-int result = 0;
+
+// Part 1
+int distance = 0;
 for (int i = 0; i < column1.Count; i++)
 {
-    result += Math.Abs(column1[i] - column2[i]);
+    distance += Math.Abs(column1[i] - column2[i]);
 }
 
-Console.WriteLine(result);
+Console.WriteLine("Solution to part 1");
+Console.WriteLine($"The distance is: {distance}");
+
+
+
+
+// Part 2: Calculate similarity
+var column2Counts = column2.GroupBy(x => x).ToDictionary(g => g.Key, g => g.Count());
+int similarity = 0;
+foreach (var value in column1)
+{
+    if (column2Counts.TryGetValue(value, out int count))
+    {
+        similarity += count * value;
+    }
+}
+
+Console.WriteLine("Solution to part 2");
+Console.WriteLine($"The similarity is: {similarity}");
