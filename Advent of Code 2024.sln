@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 1 - Historian Hysteria", "Day 1 - Historian Hysteria\Day 1 - Historian Hysteria.csproj", "{FADE403A-6D84-4F08-9214-20343AD64E17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day 1 - Historian Hysteria", "Day 1 - Historian Hysteria\Day 1 - Historian Hysteria.csproj", "{FADE403A-6D84-4F08-9214-20343AD64E17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 2 - Red-Nosed Reports", "Day 2 - Red-Nosed Reports\Day 2 - Red-Nosed Reports.csproj", "{9E63B95E-5819-4007-8C79-30159D5CDA5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FADE403A-6D84-4F08-9214-20343AD64E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FADE403A-6D84-4F08-9214-20343AD64E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FADE403A-6D84-4F08-9214-20343AD64E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E63B95E-5819-4007-8C79-30159D5CDA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E63B95E-5819-4007-8C79-30159D5CDA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E63B95E-5819-4007-8C79-30159D5CDA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E63B95E-5819-4007-8C79-30159D5CDA5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
